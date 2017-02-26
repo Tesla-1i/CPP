@@ -1,0 +1,7 @@
+# depslib dependency file v1.0
+1488072789 source:f:\g\cpp\cpp\322\main.cpp
+	<iostream>
+	"out.h"
+
+1488072350 f:\g\cpp\cpp\322\out.h
+
