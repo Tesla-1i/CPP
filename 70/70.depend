@@ -1,0 +1,8 @@
+# depslib dependency file v1.0
+1488202490 source:f:\g\cpp\cpp\70\main.cpp
+	<iostream>
+	<cstring>
+	"70.h"
+
+1488202228 f:\g\cpp\cpp\70\70.h
+
