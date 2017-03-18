@@ -18,6 +18,7 @@ private:
   int n;
 public:
   Rational(int nn = 1, int mm = 1);
+  Rational(Rational &A);
   Rational R_add(Rational &A);
   Rational R_sub(Rational &A);
   void R_mul(Rational &A);
