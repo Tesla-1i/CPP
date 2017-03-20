@@ -74,7 +74,7 @@ int main(){
 	int h, m, s;
 	cout<<"请输入时间hour, minute, second\n";
 	cin>>h>>m>>s;
-	if(h<0 || h>25 || m < 0 || m > 59 || s < 0|| s > 59){
+	if(h<0 || h>12 || m < 0 || m > 59 || s < 0|| s > 59){
 		cout<<"时间错误\n";
 		return 1;
 	}

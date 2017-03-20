@@ -1,0 +1,26 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: teacher2_1_1 - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\Users\asus\AppData\Local\Temp\RSPB448.tmp" with contents
+[
+/nologo /MLd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_CONSOLE" /D "_MBCS" /Fp"Debug/teacher2_1_1.pch" /YX /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"F:\G\cpp\CPP\teacher2_2_1.cpp"
+]
+Creating command line "cl.exe @C:\Users\asus\AppData\Local\Temp\RSPB448.tmp" 
+<h3>Output Window</h3>
+Compiling...
+teacher2_2_1.cpp
+F:\G\cpp\CPP\teacher2_2_1.cpp(77) : warning C4715: 'Date::setDate' : not all control paths return a value
+
+
+
+<h3>Results</h3>
+teacher2_2_1.obj - 0 error(s), 1 warning(s)
+</pre>
+</body>
+</html>

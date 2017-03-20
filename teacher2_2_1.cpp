@@ -77,7 +77,8 @@ int Date::setDate(int y, int m, int d){
 }
 
 void Date::getDate(){
-	cout<<year<<" 年 "<<month<<" 月 "<<day<<" 日\n";
+	cout<<month<<"/"<<day<<"/"<<year<<"\n";
+	//cout<<year<<" 年 "<<month<<" 月 "<<day<<" 日\n";
 }
 
 void Date::judgeDate(){

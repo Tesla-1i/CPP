@@ -1,0 +1,56 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: teacher2_9_2 - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\Users\asus\AppData\Local\Temp\RSPE684.tmp" with contents
+[
+/nologo /MLd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_CONSOLE" /D "_MBCS" /Fp"Debug/teacher2_9_2.pch" /YX /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"F:\G\cpp\CPP\teacher2_9_2\Date.cpp"
+"F:\G\cpp\CPP\teacher2_9_2\main.cpp"
+"F:\G\cpp\CPP\teacher2_9_2\Person.cpp"
+]
+Creating command line "cl.exe @C:\Users\asus\AppData\Local\Temp\RSPE684.tmp" 
+Creating temporary file "C:\Users\asus\AppData\Local\Temp\RSPE685.tmp" with contents
+[
+kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /nologo /subsystem:console /incremental:yes /pdb:"Debug/teacher2_9_2.pdb" /debug /machine:I386 /out:"Debug/teacher2_9_2.exe" /pdbtype:sept 
+.\Debug\Date.obj
+.\Debug\main.obj
+.\Debug\Person.obj
+]
+Creating command line "link.exe @C:\Users\asus\AppData\Local\Temp\RSPE685.tmp"
+<h3>Output Window</h3>
+Compiling...
+Date.cpp
+main.cpp
+f:\g\cpp\cpp\teacher2_9_2\person.h(10) : error C2146: syntax error : missing ';' before identifier 'birthday'
+f:\g\cpp\cpp\teacher2_9_2\person.h(10) : error C2501: 'Date' : missing storage-class or type specifiers
+f:\g\cpp\cpp\teacher2_9_2\person.h(10) : error C2501: 'birthday' : missing storage-class or type specifiers
+f:\g\cpp\cpp\teacher2_9_2\person.h(13) : error C2969: syntax error : ';' : expected member function definition to end with '}'
+Person.cpp
+f:\g\cpp\cpp\teacher2_9_2\person.h(10) : error C2146: syntax error : missing ';' before identifier 'birthday'
+f:\g\cpp\cpp\teacher2_9_2\person.h(10) : error C2501: 'Date' : missing storage-class or type specifiers
+f:\g\cpp\cpp\teacher2_9_2\person.h(10) : error C2501: 'birthday' : missing storage-class or type specifiers
+f:\g\cpp\cpp\teacher2_9_2\person.h(13) : error C2969: syntax error : ';' : expected member function definition to end with '}'
+f:\g\cpp\cpp\teacher2_9_2\person.cpp(8) : error C2653: 'Persion' : is not a class or namespace name
+f:\g\cpp\cpp\teacher2_9_2\person.cpp(10) : warning C4508: 'Person' : function should return a value; 'void' return type assumed
+f:\g\cpp\cpp\teacher2_9_2\person.cpp(12) : error C2548: 'Person::Person' : missing default parameter for parameter 5
+f:\g\cpp\cpp\teacher2_9_2\person.cpp(12) : error C2548: 'Person::Person' : missing default parameter for parameter 6
+f:\g\cpp\cpp\teacher2_9_2\person.cpp(12) : error C2548: 'Person::Person' : missing default parameter for parameter 7
+f:\g\cpp\cpp\teacher2_9_2\person.cpp(12) : error C2614: 'Person' : illegal member initialization: 'birthday' is not a base or member
+f:\g\cpp\cpp\teacher2_9_2\person.cpp(35) : error C2065: 'birthday' : undeclared identifier
+f:\g\cpp\cpp\teacher2_9_2\person.cpp(35) : error C2228: left of '.year' must have class/struct/union type
+f:\g\cpp\cpp\teacher2_9_2\person.cpp(35) : error C2228: left of '.month' must have class/struct/union type
+f:\g\cpp\cpp\teacher2_9_2\person.cpp(35) : error C2228: left of '.day' must have class/struct/union type
+Error executing cl.exe.
+
+
+
+<h3>Results</h3>
+teacher2_9_2.exe - 17 error(s), 1 warning(s)
+</pre>
+</body>
+</html>
