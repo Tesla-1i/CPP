@@ -12,6 +12,7 @@ private:
 	Date birthday;
 	char sex;
 public:
+	Person(char *num, char *na, char *i, char se, int y, int m, int d);
 	Person();
 	~Person();
 	void setData();

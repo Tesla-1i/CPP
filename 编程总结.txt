@@ -1,0 +1,14 @@
+1.多头文件编译，每个头文件用
+	#ifndef SYMBOL
+	#define SYMBOL 
+	class 编程总结
+	{
+	public:
+		编程总结();
+		~编程总结();
+		
+	};
+
+	#endif 格式书写
+2.inline 内联函数的实现不能写在cpp文件
+	否则连接不通过 error 2001还是2007,207

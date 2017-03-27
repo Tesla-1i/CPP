@@ -72,7 +72,6 @@ inline void Person::getData(){
 
 
 int main(){
-
 	char num[10], name[10], id[18], sex;
 	cout << "ÇëÊäÈë±àºÅ ";
 	cin >> num;

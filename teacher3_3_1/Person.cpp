@@ -1,8 +1,16 @@
 #include <iostream>
+#include <cstring>
 #include "Person.h"
 
 
 using namespace std;
+Person::Person(char *num, char *na, char *i, char se, int y, int m, int d):birthday(y, m, d){
+	strcpy(number, num);
+	strcpy(name, na);
+	strcpy(id, i);
+	sex = se;
+}
+	
 
 Person::Person():birthday(2017, 1, 1){
 
