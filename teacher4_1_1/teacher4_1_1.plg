@@ -6,15 +6,16 @@
 --------------------Configuration: teacher4_1_1 - Win32 Debug--------------------
 </h3>
 <h3>Command Lines</h3>
-Creating temporary file "C:\Users\asus\AppData\Local\Temp\RSP4EAE.tmp" with contents
+Creating temporary file "C:\Users\asus\AppData\Local\Temp\RSPAFDF.tmp" with contents
 [
 /nologo /MLd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_CONSOLE" /D "_MBCS" /Fp"Debug/teacher4_1_1.pch" /YX /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
 "F:\G\cpp\CPP\teacher4_1_1\main.cpp"
 "F:\G\cpp\CPP\teacher4_1_1\myString.cpp"
 "F:\G\cpp\CPP\teacher4_1_1\String1.cpp"
+"F:\G\cpp\CPP\teacher4_1_1\String2.cpp"
 ]
-Creating command line "cl.exe @C:\Users\asus\AppData\Local\Temp\RSP4EAE.tmp" 
-Creating temporary file "C:\Users\asus\AppData\Local\Temp\RSP4EBE.tmp" with contents
+Creating command line "cl.exe @C:\Users\asus\AppData\Local\Temp\RSPAFDF.tmp" 
+Creating temporary file "C:\Users\asus\AppData\Local\Temp\RSPAFE0.tmp" with contents
 [
 kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /nologo /subsystem:console /incremental:yes /pdb:"Debug/teacher4_1_1.pdb" /debug /machine:I386 /out:"Debug/teacher4_1_1.exe" /pdbtype:sept 
 .\Debug\main.obj
@@ -22,12 +23,13 @@ kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32
 .\Debug\String1.obj
 .\Debug\String2.obj
 ]
-Creating command line "link.exe @C:\Users\asus\AppData\Local\Temp\RSP4EBE.tmp"
+Creating command line "link.exe @C:\Users\asus\AppData\Local\Temp\RSPAFE0.tmp"
 <h3>Output Window</h3>
 Compiling...
 main.cpp
 myString.cpp
 String1.cpp
+String2.cpp
 Linking...
 
 

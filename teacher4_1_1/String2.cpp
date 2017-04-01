@@ -61,6 +61,7 @@ void String2::insert(char *i){
 	int length = getLen() + strlen(i);
 	char *pStrTemp = new char[plength + 1];
 	pStrTemp = pStr;
+	//printf("pStrTemp : %s\n",pStrTemp );
 	pStr = new char[length + 1];
 	if(m == plength){
 		int j = 0;
@@ -102,13 +103,29 @@ void String2::insert(char *i){
 		}*/
 		pStr[length] = '\0';
 	}
+	else{
+		for(int n = 0; n < m- 1; n++){
+			pStr[n] = pStrTemp[n];
+		}
+		int v = n;
+		for(int u = 0; u < ilength; u++){
+			pStr[n + u] = i[u];
+		}
+		n += u;
+		while(pStrTemp[v] != '\0'){
+			pStr[n] = pStrTemp[v];
+			n++; v++;
+		}
+		pStr[length] = '\0';
+	}
 }
 
 bool String2::find(const char *f){
 	int flength = strlen(f);
 	int length = getLen();
 	int i , j, k;
-	for(i = 0, j = 0; i < length -flength; i++){
+
+	for(i = 0, j = 0; i < length; i++){
 		if(pStr[i] == f[j]){
 			for(k = 0; k < flength; k++){
 				if(pStr[i+k] != f[k])

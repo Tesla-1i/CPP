@@ -69,6 +69,11 @@ int main(){
 		cout<<"查找成功\n";
 	else
 		cout<<"没有该子串\n";
+	cout<<"请输入插入的子串\n";
+	char i[10];
+	cin>>i;
+	string21.insert(i);
+	string21.print();
 	//查找不行
 	//插入没写完
 	return 0;

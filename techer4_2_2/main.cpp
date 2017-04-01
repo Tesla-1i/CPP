@@ -14,10 +14,10 @@ int main(){
 	Myarray myarray1(i);
 	myarray1.input();
 	myarray1.display();
-	//cout<<"拷贝数组的信息\n";
+	/*cout<<"拷贝数组的信息\n";
 	//Myarray析构函数时，有拷贝构造时会有问题
-	//Myarray myarray2(myarray1);
-	//myarray2.display();
+	Myarray myarray2(myarray1);
+	myarray2.display();*/
 	cout<<"-----------------------------\n";
 	Averarray averarray1(i);
 	cout<<"Averarray数字个数与Myarray一致\n";

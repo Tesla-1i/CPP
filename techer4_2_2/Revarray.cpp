@@ -19,6 +19,7 @@ void Revarray::revArray(){
 	for(int i = 0; i < (length/2); i++){
 		temp = list[i];
 		list[i] = list[length-1-i];
+		list[length-1-i] = temp;
 	}
 	cout<<"·´ÐòÊä³ö\n";
 	for(int j = 0; j < length; j++){
