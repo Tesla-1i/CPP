@@ -14,4 +14,5 @@ int main()
   j = (rand() * 100) / RAND_MAX + 1; // 生成1~100之间的随机数
   printf("j = %d \n", j);
  }
+ return 0;
 }
