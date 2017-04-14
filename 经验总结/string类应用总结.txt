@@ -1,0 +1,27 @@
+#include <string>
+
+1. string构造函数
+	string(), string("hello");
+	string str1("hello");
+2. string赋值
+	string str1 = "hello"
+	str1 = str2;
+3.string输入与输出
+	cin>>str1;
+	cout<<str1;
+4.string查找
+	str1.find(str2)		查找str1中str2出现的第一个位置
+	str1.rfind(str2)	查找str1中str2出现的最后一次的位置
+5.string比较
+	直接使用> < = !=即可， 可比较string对象，也可比较string对象和普通字符串
+6.string追加和相加
+	string str3 = str1 + str2;	相加
+	string str1 += str2		str2追加到str1后面
+7.string插入
+	insert(4, "former");	第一个参数是插入的索引， 第二个参数是插入的内容，可以是字符串，指针，string对象
+	insert(4, "former", 2); 第三个参数是插入内容的前几个
+8.string删除
+	erase(4, 6); 		4: 开始删除的索引， 6：删除的字符个数，若没有6,就删除到最后
+9.string替换
+	replace(7, 5, "left"); 		7:开始替换的索引， 5：替换掉的字符个数， “left”: 替换成的新字符串，可以是多种形式
+	
